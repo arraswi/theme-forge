@@ -1,0 +1,10 @@
+/* Gere tokens.css com o comando descrito no README. */
+@import url('./tokens.css');
+
+.button {
+  color: var(--on-brand);
+  background: var(--brand-500);
+  border: 1px solid var(--brand-700);
+  border-radius: 12px;
+  padding: 12px 20px;
+}

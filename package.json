@@ -1,0 +1,24 @@
+{
+  "name": "theme-forge",
+  "version": "1.0.0",
+  "description": "Gere uma escala de cores CSS e escolha texto por contraste.",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js"
+    }
+  },
+  "bin": {
+    "theme-forge": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node bin/cli.js",
+    "test": "node --test"
+  }
+}
